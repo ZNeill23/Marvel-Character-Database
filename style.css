@@ -1,1 +1,53 @@
- 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+ }
+
+ header {
+    background-color: #20232a;
+    color: 61dafb;
+    padding: 1rem;
+ }
+
+ #search-bar {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 500px;
+ }
+
+ #character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.character-card h2 {
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+#loading-message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1rem;
+}
